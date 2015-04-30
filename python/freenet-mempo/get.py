@@ -99,7 +99,7 @@ def get_all(usk, rev, freenet):
         else:
           # damnit we can't download it, complain
           log.error(" !! Failed to download {}".format(fname))
-
+          break
 
 from argparse import ArgumentParser as AP
 
